@@ -24,59 +24,18 @@
 .navigation > button {
     margin: 20px 50px 0 0;
     font-size: 20px;
+    background: none;
+    border: none;
+    color: white;
 }
 
-.footer-section{
+.footer{
+    margin-top: 1rem;
+    color: white;
+    padding: 1rem;
     background-color: #282c34;
-    color: white;
-    display: flex;
-}
-
-.footer-brand{
-    margin-left: 100px;
-}
-
-.footer-address{
-    max-width: 200px;
-    margin-left: 50px;
-    text-align: justify;
-}
-
-.footer-services{
-    max-width: 200px;
-    margin-left: 50px;
-}
-
-.footer-pages{
-    max-width: 200px;
-    margin-left: 50px;
-}
-
-.footer-payment-services{
-    margin-left: 50px;
-    max-width: 200px;
-}
-
-.footer-social-media{
-    margin-left: 50px;
-    max-width: 200px;
-}
-
-.pages-item{
-    color: white;
-    margin: 2px;
-}
-
-.services-item {
-    color: white;
-    margin: 2px;
-}
-
-.payment-item{
-    color: white;
-    margin: 2px;
-}
-
-.footer-services {
-    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
