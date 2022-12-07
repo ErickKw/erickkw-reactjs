@@ -7,6 +7,7 @@ import Header from "./component/Header";
 import Footer from "./component/Footer";
 import Products from "./pages/Home/Products";
 import React, { useState } from "react";
+import Category from "./pages/Home/Products/Category";
 
 function App() {
   const [getMenu, setMenu] = useState(1);
@@ -28,6 +29,7 @@ function App() {
   return (
     <div className="App">
       <Header onClick={setMenu} />
+      <Category />
       {getContent()}
     </div>
   );

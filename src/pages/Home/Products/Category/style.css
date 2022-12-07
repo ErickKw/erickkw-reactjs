@@ -1,0 +1,9 @@
+.row-category {
+    margin: 10px 0 10px auto;
+    width: fit-content;
+  }
+  
+  .row-category > select {
+    margin-left: 10px;
+    padding: 3px;
+  }
