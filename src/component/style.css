@@ -1,0 +1,82 @@
+.header-wrapper{
+    display: flex;
+    background-color: #282c34;
+    color: white;
+}
+
+.header-wrapper > img {
+    height: 100px;
+    pointer-events: none;
+    margin-left: 100px;
+}
+
+.header-title{
+    font-size: 20px;
+    margin-top: 33px;
+    margin-left: 3px;
+}
+
+.navigation {
+    display: flex;
+    margin-left: auto;
+}
+  
+.navigation > button {
+    margin: 20px 50px 0 0;
+    font-size: 20px;
+}
+
+.footer-section{
+    background-color: #282c34;
+    color: white;
+    display: flex;
+}
+
+.footer-brand{
+    margin-left: 100px;
+}
+
+.footer-address{
+    max-width: 200px;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.footer-services{
+    max-width: 200px;
+    margin-left: 50px;
+}
+
+.footer-pages{
+    max-width: 200px;
+    margin-left: 50px;
+}
+
+.footer-payment-services{
+    margin-left: 50px;
+    max-width: 200px;
+}
+
+.footer-social-media{
+    margin-left: 50px;
+    max-width: 200px;
+}
+
+.pages-item{
+    color: white;
+    margin: 2px;
+}
+
+.services-item {
+    color: white;
+    margin: 2px;
+}
+
+.payment-item{
+    color: white;
+    margin: 2px;
+}
+
+.footer-services {
+    color: white;
+}
